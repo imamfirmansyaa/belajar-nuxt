@@ -1,0 +1,40 @@
+/* penentuan class untuk dipanggil dihtml */
+.head, .body, .foot{
+    background-color: darkblue;
+    color: whitesmoke;
+    width: 100px;
+    height: 150px;
+    margin: 0 auto;
+    /* text-align: center;
+    width: 100px;
+    margin-left: 700px; */ 
+}
+.face, .teech, .down {
+    text-align: center;
+    /* color: whitesmoke;
+    width: 100px; */
+}
+.nav-link,
+        .navbar-brand {
+            color: black;
+        }
+        
+        .nav-link:hover {
+            color: darkkhaki;
+        }
+        
+        .rounded {
+            border-radius: 50px;
+        }
+        
+        .bg-img {
+            background: white;
+        }
+        
+        .header {
+            width: 100%;
+            z-index: 1000;
+            position: fixed;
+            height: 60px;
+            background: white;
+        }
